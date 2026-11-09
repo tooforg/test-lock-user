@@ -1,0 +1,7 @@
+name: test 1109
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tooforg/test-action-a@v1
