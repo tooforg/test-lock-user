@@ -1,8 +1,14 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/ci.yml':
+        - 'actions/checkout@v4'
         - 'tooforg/test-action-a@v2'
 dependencies:
+    'actions/checkout@v4':
+        ref: 'v4'
+        commit: 'sha1-11d5960a326750d5838078e36cf38b85af677262'
+        owner_id: 44036562
+        repo_id: 197814629
     'tooforg/test-action-a@v2':
         ref: 'v2'
         commit: 'sha1-34f127db25d1a1c075ebda7812590e962f7cae62'
