@@ -5,6 +5,7 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/ci.yml':
         - 'tooforg/test-action-a@v1'
+        - 'tooforg/test-action-b@v1'
 dependencies:
     'tooforg/test-action-a@v1':
         ref: 'v1'
