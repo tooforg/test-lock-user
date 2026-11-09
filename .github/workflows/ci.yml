@@ -1,8 +1,9 @@
-name: test 1109
-on: workflow_dispatch
+name: test 1109 push
+on:
+  push:
+    branches: [main]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: tooforg/test-action-a@v2
+      - uses: tooforg/test-action-a@v1
