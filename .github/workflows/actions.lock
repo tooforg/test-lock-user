@@ -8,11 +8,11 @@ workflows:
 dependencies:
     'tooforg/test-action-a@v1':
         ref: 'v1'
-        commit: 'daf4ba2f1f56713f4ddde4542993efd4b13e5de7'
+        commit: 'sha1-daf4ba2f1f56713f4ddde4542993efd4b13e5de7'
         owner_id: 269852319
         repo_id: 1451586468
     'tooforg/test-action-b@v1':
         ref: 'v1'
-        commit: '1c56b56debff3794e2c38ef44febc8b7554dbe62'
+        commit: 'sha1-1c56b56debff3794e2c38ef44febc8b7554dbe62'
         owner_id: 269852319
         repo_id: 1451586311
